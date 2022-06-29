@@ -91,6 +91,9 @@ function play() {
       quadra += 1;
     }
     if (deck[i].n===1){
+      if (deck[12]===1 && i===0){
+        sequencia += 1;
+      }
       sequencia += 1;
     } else {
       sequencia = 0;
