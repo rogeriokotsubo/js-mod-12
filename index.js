@@ -18,12 +18,10 @@ function calculate() {
   let euler = BigInt(1);
   let tmp = BigInt(1);
   for (let j=2; j<=num1; j++){
-    euler += BigInt(BigInt(10**100)/calcFatorial(j));
+    euler += 10n**100n/calcFatorial(j);
   }
 
   resultEuler.innerHTML=`Número de Euler com ${num1} termos: 2.${euler}`;
-
-
 }
 
 function calcFatorial(num){

@@ -106,6 +106,7 @@ h1{
   font-weight: 600;
   font-size: 1.2vw;
   word-break: break-word;
+  padding-top: 4vh;
 }
 #ctn-play{
   padding-top: 5vh;
